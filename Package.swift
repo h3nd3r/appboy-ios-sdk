@@ -6,7 +6,8 @@ let package = Package(
   name: "Appboy_iOS_SDK",
   defaultLocalization: "en",
   platforms: [
-    .iOS(.v9)
+    .iOS(.v9),
+    .tvOS(.v9)
   ],
   products: [
     .library(name: "AppboyKit", type: .static, targets: ["AppboyKit"]),
